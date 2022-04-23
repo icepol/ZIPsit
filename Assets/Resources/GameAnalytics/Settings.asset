@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78192cec1344d83a177ac5e6139ab3, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea: 
+  gameKey:
+  - 3c314e7b27c3b4df7fbcfda5673f8895
+  - 9e0d15206acb9fa16d76acc94752c300
+  - 0b0e50a7c16f00b06eb165a662a09a6b
+  secretKey:
+  - 3e6e16c0b2ca57a1b11516d2d6479251f268fe0d
+  - 6bf8d05f044a8013269a30209958b1d237ee2037
+  - 037a7cbf2a2107435020a09ef7ef1d8ddffa40f9
+  Build:
+  - 0.1
+  - 0.1
+  - 0.1
+  SelectedPlatformOrganization:
+  - 
+  - pixelook
+  - pixelook
+  SelectedPlatformStudio:
+  - 
+  - pixelook
+  - pixelook
+  SelectedPlatformGame:
+  - 
+  - Squadron Android
+  - Squadron WebGL
+  SelectedPlatformGameID: ccee0100041e02005d1e0200
+  SelectedOrganization: 010000000100000001000000
+  SelectedStudio: 010000000100000001000000
+  SelectedGame: 060000000300000009000000
+  NewVersion: 6.4.1
+  Changes: '6.4.1
+
+    - added idfa consent status field to events (ios)
+
+
+    6.4.0
+
+    -
+    added support for unity package manager
+
+
+    6.3.14
+
+    - fixed playmaker scripts
+
+
+    6.3.13
+
+    -
+    fixed compiler errors for 2017.1
+
+    - updated client ts validator
+
+
+    6.3.12
+
+    -
+    changed AppTrackingTransparency dependency to be optional for iOS
+
+
+    6.3.11
+
+    -
+    fixed dependencies for iOS (min. XCode 12 required)
+
+
+    6.3.10
+
+    - fix to
+    mopub impression events, require min. mopub v5.14.0
+
+    - REMEMBER to update
+    to this version of the SDK if you use MoPub impression events and you have min.
+    v5.14.0 of MoPub SDK inatalled or else the SDK will not send MoPub impression
+    event for you any more
+
+
+    6.3.9
+
+    - fixed ironsource impression event compile
+    error'
+  SignUpOpen: 0
+  StudioName: PiXELOOK
+  GameName: Jumpig
+  OrganizationName: 
+  OrganizationIdentifier: 
+  EmailGA: pavel.koci@icepol.net
+  IntroScreen: 0
+  InfoLogEditor: 1
+  InfoLogBuild: 0
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  UseIMEI: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 1
+  Platforms: 080000000b00000011000000
+  CurrentInspectorState: 1
+  ClosedHints: 
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 98df8f9c5678a4e5d964caa1244e8958, type: 3}
+  UpdateIcon: {fileID: 0}
+  InfoIcon: {fileID: 0}
+  DeleteIcon: {fileID: 0}
+  GameIcon: {fileID: 0}
+  HomeIcon: {fileID: 0}
+  InstrumentIcon: {fileID: 0}
+  QuestionIcon: {fileID: 0}
+  UserIcon: {fileID: 0}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 0
+  MaxErrorCount: 10
+  SubmitFpsAverage: 1
+  SubmitFpsCritical: 1
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 010101
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ed62a4558d845689dc185f5ba8e587, type: 3}
+  m_Name: GameSetup
+  m_EditorClassIdentifier: 
+  selectedSkinIndex: 0
+  areUnlockedAll: 0
+  skins:
+  - {fileID: 11400000, guid: efb6c6a65581e405fa9b95dbaf756462, type: 2}
+  - {fileID: 11400000, guid: ce5a83a272c744a4aa7fd97aff27c4f4, type: 2}
+  - {fileID: 11400000, guid: 1262dfb2a20974e2fb27a586023815a3, type: 2}
+  minSpawnedSquadrons: 10
+  minSquadronCountToSpawnEnemies: 5
+  minSquadronCountToSpawnCities: 10
+  levels:
+  - {fileID: 11400000, guid: 1a3e73567dab44c5c9b573e93fa7b61c, type: 2}
+  - {fileID: 11400000, guid: dc6ebb947a3d34fbf8499d2103e3020f, type: 2}
+  - {fileID: 11400000, guid: 21d57c1b769224ac3aeb684741f9226b, type: 2}
+  - {fileID: 11400000, guid: 73cc7e6efb48e4474aca3833add4abff, type: 2}
+  - {fileID: 11400000, guid: 124f4076061394c2b82523897496521a, type: 2}
+  - {fileID: 11400000, guid: 436d776d5910c4728877055c80bf633b, type: 2}
+  - {fileID: 11400000, guid: 589d80004e3d54db5bc836b0f39a8006, type: 2}
+  - {fileID: 11400000, guid: e17535eb84f5b458085fab303a4ecdb3, type: 2}
+  - {fileID: 11400000, guid: 08e87f028452842c893ec4a3d3ac2d11, type: 2}
+  - {fileID: 11400000, guid: e1b021daae43945338fbf006732a8e10, type: 2}
+  - {fileID: 11400000, guid: 8ce80f63f99834e3d8d708ea3f356742, type: 2}
+  - {fileID: 11400000, guid: 1da5ab38d3caf47d8903b8f728e23372, type: 2}
+  - {fileID: 11400000, guid: b5bd755ca81104a129eeaf7f75d13e80, type: 2}
+  - {fileID: 11400000, guid: 6bd75b1874bff48cea52cb6d0ff0d21b, type: 2}
+  - {fileID: 11400000, guid: 3c4d5cb75b8f54f9da99ed815749761d, type: 2}
+  - {fileID: 11400000, guid: 14d255ea9b44d4309a3befe84c4f6531, type: 2}
+  - {fileID: 11400000, guid: 67cf77baab8f5425ca3e5cb723dc17a7, type: 2}
+  isProduction: 1
