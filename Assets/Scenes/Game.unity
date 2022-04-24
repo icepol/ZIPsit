@@ -1222,6 +1222,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1778525764}
     m_Modifications:
+    - target: {fileID: 381161597, guid: 4c5419ad452bd46ee9dd7c6cf6b9e230, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535221190, guid: 4c5419ad452bd46ee9dd7c6cf6b9e230, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6480329418709669545, guid: 4c5419ad452bd46ee9dd7c6cf6b9e230, type: 3}
       propertyPath: m_Name
       value: MenuPanel
