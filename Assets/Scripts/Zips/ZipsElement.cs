@@ -25,11 +25,7 @@ public class ZipsElement : MonoBehaviour
 
     [SerializeField] private ParticleSystem explosion;
 
-    public ZipsOrientation Orientation
-    {
-        get;
-        private set;
-    }
+    public ZipsOrientation Orientation { get; set; }
 
     public void RemoveEnvironment()
     {

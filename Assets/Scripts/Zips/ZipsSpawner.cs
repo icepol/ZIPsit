@@ -26,11 +26,16 @@ public class ZipsSpawner : MonoBehaviour
     private bool _isGameRunning;
     private float _currentZipsItDuration;
     private int _movingZipsCount;
+    private ZipsOrientation _zipsOrientation;
+    private bool _isLastOrientationCorrect;
     
     private Dictionary<ZipsPosition, ZipsElementsContainer> _containersByPosition;
 
     void Start()
     {
+        // which orientation will be the correct one
+        _zipsOrientation = (ZipsOrientation) Random.Range(0, (int) ZipsOrientation.Down + 1);
+        
         _nextZipsContainer = (ZipsPosition) Random.Range(0, (int) ZipsPosition.Right + 1);
 
         if (_nextZipsContainer == ZipsPosition.Left)
@@ -133,7 +138,17 @@ public class ZipsSpawner : MonoBehaviour
         while (_zipsElements.Count < expectedSize)
         {
             var zipsElement = SpawnZipsElement();
+
+            // get the next orientation
+            ZipsOrientation orientation = _isLastOrientationCorrect 
+                ? (ZipsOrientation) Random.Range(0, (int) ZipsOrientation.Down + 1) 
+                : _zipsOrientation;
+
+            _isLastOrientationCorrect = orientation == _zipsOrientation;
             
+            // set the orientation
+            zipsElement.Orientation = orientation;
+
             _zipsElements.Add(zipsElement);
         }
         
